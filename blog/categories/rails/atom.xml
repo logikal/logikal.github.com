@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[/dev/admin]]></title>
-  <link href="http://logikal.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: rails | /dev/admin]]></title>
+  <link href="http://logikal.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://logikal.github.com/"/>
   <updated>2012-04-11T15:09:33-07:00</updated>
   <id>http://logikal.github.com/</id>
@@ -18,15 +18,15 @@
     <link href="http://logikal.github.com/blog/2012/04/11/vagrant-streamlined-dev-environments/"/>
     <updated>2012-04-11T01:33:00-07:00</updated>
     <id>http://logikal.github.com/blog/2012/04/11/vagrant-streamlined-dev-environments</id>
-    <content type="html"><![CDATA[<p>I had a need to write some code recently, and ran into the &#8220;Rails is a pain to set up&#8221; issue that people have been talking about recently. It&#8217;s gotten bad enough that <a href="http://yehudakatz.com/">Yehuda Katz</a>, a member of the Ruby on Rails core team, has set up a Kickstarter project, <a href="http://www.kickstarter.com/projects/1397300529/railsapp">&#8220;Rails.app&#8221;</a>, to address the issue.</p>
+    <content type="html"><![CDATA[<p>I had a need to write some code recently, and ran into the "Rails is a pain to set up" issue that people have been talking about recently. It's gotten bad enough that <a href="http://yehudakatz.com/">Yehuda Katz</a>, a member of the Ruby on Rails core team, has set up a Kickstarter project, <a href="http://www.kickstarter.com/projects/1397300529/railsapp">"Rails.app"</a>, to address the issue.</p>
 
-<p>Since I&#8217;m more familiar with running services on something more like an Amazon EC2 instance, I looked around for something I could put some time and secret sauce into that would give me ease of use and reusability.</p>
+<p>Since I'm more familiar with running services on something more like an Amazon EC2 instance, I looked around for something I could put some time and secret sauce into that would give me ease of use and reusability.</p>
 
-<p>That&#8217;s when I found <a href="http://vagrantup.com">Vagrant</a>.</p>
+<p>That's when I found <a href="http://vagrantup.com">Vagrant</a>.</p>
 
 <p>Vagrant is a way to spin up VMs with standardized environments very quickly. It depends on the wonderful <a href="https://www.virtualbox.org/">Oracle Virtualbox</a>, and can even integrate <a href="http://www.opscode.com/chef/">Chef</a> or <a href="http://puppetlabs.com/">Puppet</a>.</p>
 
-<p>I&#8217;ll write a bit more about my experiance with Vagrant soon. You should start looking at it now, though.</p>
+<p>I'll write a bit more about my experiance with Vagrant soon. You should start looking at it now, though.</p>
 ]]></content>
   </entry>
   
