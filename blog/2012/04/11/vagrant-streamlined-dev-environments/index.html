@@ -5,18 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>/dev/admin</title>
+  <title>Vagrant: streamlined dev environments - /dev/admin</title>
   <meta name="author" content="Sean Kilgore">
 
   
-  <meta name="description" content="
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    
-      {% include article.html %}
-    
- ...">
+  <meta name="description" content="I had a need to write some code recently, and ran into the "Rails is a pain to set up" issue that people have been talking about recently. It's got...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -25,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.log1k.al/">
+  <link rel="canonical" href="http://blog.log1k.al/blog/2012/04/11/vagrant-streamlined-dev-environments/">
   <link href="//favicon.png" rel="icon">
   <link href="//stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="//javascripts/modernizr-2.0.js"></script>
@@ -69,31 +62,15 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+      <p>I had a need to write some code recently, and ran into the "Rails is a pain to set up" issue that people have been talking about recently. It's gotten bad enough that <a href="http://yehudakatz.com/">Yehuda Katz</a>, a member of the Ruby on Rails core team, has set up a Kickstarter project, <a href="http://www.kickstarter.com/projects/1397300529/railsapp">"Rails.app"</a>, to address the issue.</p>
+
+<p>Since I'm more familiar with running services on something more like an Amazon EC2 instance, I looked around for something I could put some time and secret sauce into that would give me ease of use and reusability.</p>
+
+<p>That's when I found <a href="http://vagrantup.com">Vagrant</a>.</p>
+
+<p>Vagrant is a way to spin up VMs with standardized environments very quickly. It depends on the wonderful <a href="https://www.virtualbox.org/">Oracle Virtualbox</a>, and can even integrate <a href="http://www.opscode.com/chef/">Chef</a> or <a href="http://puppetlabs.com/">Puppet</a>.</p>
+
+<p>I'll write a bit more about my experiance with Vagrant soon. You should start looking at it now, though.</p>
 
     </div>
   </div>

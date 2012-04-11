@@ -5,18 +5,31 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>/dev/admin</title>
+  <title>Blog Archive - /dev/admin</title>
   <meta name="author" content="Sean Kilgore">
 
   
   <meta name="description" content="
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    
-      {% include article.html %}
-    
- ...">
+
+
+
+  
+  2012
+
+
+  
+Vagrant: streamlined dev environments
+Apr 11 2012
+
+
+  posted in railsautomationdevopsvagrant
+
+
+
+
+
+
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -25,7 +38,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.log1k.al/">
+  <link rel="canonical" href="http://blog.log1k.al/blog/archives/">
   <link href="//favicon.png" rel="icon">
   <link href="//stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="//javascripts/modernizr-2.0.js"></script>
@@ -69,31 +82,26 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
+      <div id="blog-archives">
+
+
+
+  
+  <h2>2012</h2>
+
+<article>
+  
+<h1><a href="/blog/2012/04/11/vagrant-streamlined-dev-environments/">Vagrant: streamlined dev environments</a></h1>
+<time datetime="2012-04-11T01:33:00-07:00" pubdate><span class='month'>Apr</span> <span class='day'>11</span> <span class='year'>2012</span></time>
+
+<footer>
+  <span class="categories">posted in railsautomationdevopsvagrant</span>
+</footer>
+
+
+</article>
+
 </div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
 
     </div>
   </div>
