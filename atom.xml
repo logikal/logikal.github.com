@@ -4,7 +4,7 @@
   <title><![CDATA[/dev/admin]]></title>
   <link href="http://logikal.github.com/atom.xml" rel="self"/>
   <link href="http://logikal.github.com/"/>
-  <updated>2012-04-24T02:01:10-07:00</updated>
+  <updated>2012-04-24T02:02:17-07:00</updated>
   <id>http://logikal.github.com/</id>
   <author>
     <name><![CDATA[Sean Kilgore]]></name>
@@ -20,28 +20,27 @@
     <id>http://logikal.github.com/blog/2012/04/24/boundaries</id>
     <content type="html"><![CDATA[<p>I <a href="https://twitter.com/#!/log1kal/status/194699562647162881">tweeted</a> earlier, and realized that some people might like to know what I was talking about.</p>
 
-<p>&#8221;&#8217;
-Me: my current goals can be summed up by saying something like &#8220;I want to work for GitHub&#8221;<br/>
-(Option1) was a better road to that than (Option2)</p>
+<pre><code>Me: my current goals can be summed up by saying something like "I want to work for GitHub"  
+(Option1) was a better road to that than (Option2)  
 
-<p>Him: You want to be apart of the change you feel needs to be in the world</p>
+Him: You want to be apart of the change you feel needs to be in the world
 
-<p>Me: exactly</p>
+Me: exactly
 
-<p>Him: <br/>
-and not on the level that (redacted) is<br/>
-you want to be the edge that he points to</p>
+Him:   
+and not on the level that (redacted) is  
+you want to be the edge that he points to  
 
-<p>Me: <br/>
-yeah<br/>
-interesting thing about edges and boundaries<br/>
-thats where the cool stuff happens<br/>
-that&#8217;s where pioneering happens <br/>
-and if we can keep ourselves from putting up stupid walls, the world will be a better place<br/>
-<em>github embodies the kind of pioneering without walls that I want to be a part of</em><br/>
-&#8221;&#8217;</p>
+Me:   
+yeah  
+interesting thing about edges and boundaries  
+thats where the cool stuff happens  
+that's where pioneering happens   
+and if we can keep ourselves from putting up stupid walls, the world will be a better place  
+__github embodies the kind of pioneering without walls that I want to be a part of__  
+</code></pre>
 
-<p>It&#8217;s no secret that I&#8217;m a big fan of GitHub. I try to get into whatever talk/drinkup/whatever they&#8217;re doing when one of them comes down my way. <a href="http://scottchacon.com/">Scott Chacon</a> gave a talk in Ventura, and explained how GitHub started from first principles. They didn&#8217;t ask &#8220;How has this been done for the last 30 years?&#8221; or &#8220;What&#8217;s the normal way a business is run?&#8221; They asked &#8221;<em>What&#8217;s the best way to get this done so we can work on our product?</em>&#8221;</p>
+<p>It&#8217;s no secret that I&#8217;m a big fan of GitHub. I try to get into whatever talk/drinkup/whatever they&#8217;re doing when one of them comes down my way. <a href="http://scottchacon.com/">Scott Chacon</a> gave a talk in Ventura, and explained how GitHub started from first principles. They didn&#8217;t ask &#8220;How has this been done for the last 30 years?&#8221; or &#8220;What&#8217;s the normal way a business is run?&#8221; They asked &#8221;<strong>What&#8217;s the best way to get this done so we can work on our product?</strong>&#8221;</p>
 
 <p>And then they went out and told everyone about it.</p>
 
